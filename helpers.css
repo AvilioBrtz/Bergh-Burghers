@@ -1,0 +1,33 @@
+.skew1-wrapper{
+	background-color: rgb(192, 192, 192, 0.3);
+	padding: 70px 10px 40px 40px;
+}
+
+.skew2-wrapper{
+	background-color: rgb(192, 192, 192, 0.3);
+	padding: 70px 10px 40px 40px;
+}
+
+.sales1-wrapper{
+	height: 1680px;
+	width: 1150px;
+	background-color: white;
+}
+
+.sales2-wrapper{
+	height: 600px;
+	width: 1150px;
+	background-color: white;
+}
+
+.sales1-wrapper h1{
+	font-size: 50px;
+	padding: 30px;
+    font-family: 'Roboto Slab', serif;
+	font-weight: bold;
+}
+
+.sales2-wrapper h1{
+	font-size: 40px;
+   font-family: 'Ubuntu Condensed', sans-serif;
+}

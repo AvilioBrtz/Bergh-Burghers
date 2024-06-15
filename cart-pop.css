@@ -1,0 +1,132 @@
+.pop-up{
+	width: 350px;
+	background-color: white;
+	color: hsl(0, 0%, 10%, 0.9);
+	position: absolute;
+	top: 80px;
+	right: 100px;
+	bottom: 250px;
+	padding: 20px 5px 0 30px;
+	border-radius: 3px;
+	box-shadow: 5px 5px 20px 3px rgb(0, 0, 0, 0.5);
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 0.65em;
+}
+
+.pop-up > .pop-up-icon{
+	font-size: 35px;
+	text-align: right;
+	margin-right: 20px;
+	color: hsl(0, 0%, 40%, 0.9);
+	cursor: pointer;
+}
+
+.pop-up.hide{
+	display: none;
+}
+
+.cart-tab{
+	width: 350px;
+	background-color: white;
+	color: black;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	padding: 20px 5px 0 20px;
+	box-shadow: -400px 0 500px 800px rgb(0, 0, 0, 0.4) ;
+	overflow: auto;
+	cursor: pointer	/*insert: top 0, right 0, bottom 0, left auto;*/
+}
+
+.cart-tab.hide{
+	display: none;
+}
+
+.cart-tab > .icon{
+	font-size: 35px;
+	text-align: right;
+	margin-right: 20px;
+	color: hsl(0, 0%, 40%, 0.9);
+	cursor: pointer;
+}
+
+.cart-tab > .btn{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-left: 10px;
+}
+
+.cart-tab > .btn button{
+	width: 150px;
+	height: 60px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-size: 1.2em;
+	border: none;
+	outline: none;
+	border-radius: 2px;
+	margin-top: 20px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.cart-tab > .btn button:active{
+	background-color: white;
+	color: black;
+}
+
+.list-cart{
+	overflow: auto;
+}
+
+.list-cart > .item{
+	display: grid;
+	grid-template-columns: 100px 180px 50px;
+	text-align: center;
+	align-items: center;
+	border-bottom: 1px solid hsl(0, 0%, 40%, 0.5);;
+	margin-bottom: 10px;
+}
+
+.list-cart > .item img{
+	width: 100%;
+	height: auto;
+}
+
+
+.list-cart > .item > .name{
+	text-align: left;
+	margin-left: 20px;
+}
+
+.list-cart > .item > .name h1{
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.list-cart > .item > .name p{
+	margin-top: -8px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+}
+
+.list-cart > .item > .item-icon{
+	font-size: 20px;
+}
+
+.cart-tab > .total{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 15px;
+	border-bottom: 1px solid hsl(0, 0%, 40%, 0.5);
+	color: hsl(0, 0%, 40%, 0.9);
+	margin-top: -10px;
+}
+

@@ -1,0 +1,159 @@
+.skew1-wrapper{
+	background-color: rgb(192, 192, 192, 0.3);
+	box-sizing: border-box;
+	padding: 30px 10px 40px 40px;
+}
+
+.skew2-wrapper{
+	background-color: rgb(192, 192, 192, 0.3);
+	padding: 70px 10px 40px 40px;
+}
+
+.sales1-wrapper{
+	height: 1680px;
+	width: 1150px;
+	background-color: white;
+}
+
+.sales2-wrapper{
+	height: 600px;
+	width: 1150px;
+	background-color: white;
+}
+
+.sales1-wrapper h1{
+	font-size: 50px;
+	padding: 30px;
+  font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+
+.sales2-wrapper h1{
+	font-size: 40px;
+   font-family: 'Roboto', sans-serif;
+}
+
+.shop-wrapper{
+	display: grid;	
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 33px;
+	padding-left: 20px;
+	padding-right: 50px;
+}
+.shop-wrapper img{
+	width: 100%;
+	height: 360px;
+	object-fit: cover;
+	padding: 15px;
+}
+.shop-wrapper p{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+} 
+
+.shop-wrapper > .item{
+	margin-top: -40px;
+	text-align: center;
+}
+
+.shop-wrapper > .item > .btn{
+	text-align: center;
+	width: 80px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 8px;
+	margin-top: -10px;
+	cursor: pointer;
+	border: 1px solid hsl(0, 0%, 40%, 0.5);
+}
+
+.shop-wrapper > .item > .btn > .quantity{
+	border-left: 1px solid hsl(0, 0%, 40%, 0.5);
+	border-right: 1px solid hsl(0, 0%, 40%, 0.5);
+}
+
+.shop-wrapper > .item > .btn button{
+	border: none;
+	background-color: white;
+	text-align: center;
+	cursor: pointer;
+}
+
+
+.add-text{
+	display: block;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	color: black;
+}
+
+.add-text.hide{
+	display: none;
+}
+
+.add-btn{
+	text-align: center;
+}
+
+.add-btn button{
+	height: 25px;
+	width: 100px;
+	background-color: black;
+	border-radius: 2px;
+	border: none;
+	outline: none;
+	color: white;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.add-btn button:active{
+	background-color: white;
+	color: black;
+}
+
+.reviews-section{
+	height: 800px;
+	position: relative;
+	overflow: hidden;
+}
+
+.reviews-section > .review-bg{
+  position: absolute;
+  background-position: center;
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	filter: brightness(20%);
+}
+.review-content{
+	position: absolute;
+	height: 700px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+                              
+.reviews-section h1{
+	 font-family: 'Roboto', sans-serif;
+	 font-size: 50px;
+}
+
+.reviews-section p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	letter-spacing: 2px;
+	line-height: 33px;
+	font-weight: bold;
+}
+

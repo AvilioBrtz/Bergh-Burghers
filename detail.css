@@ -1,0 +1,122 @@
+/*detail style*/
+.person-wrapper{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding: 0 10px 10px 50px;
+	background-color: white;
+}
+
+.person-wrapper > .left-column{
+	text-align: left;
+}
+.table{
+	background-color: white;
+	color: black;
+	border: 2px solid rgb(192, 192, 192, 0.3);
+	border-radius: 5px;
+	height: 400px;
+	padding: 20px;
+	padding-right: 30px;
+	width: 350px;
+	margin-top: 50px;
+	box-shadow: 0 -1rem -1rem rgba(0, 0, 0, 0.1);
+}
+
+.person-wrapper p{
+	font-size: 17px;
+  font-family: 'Ubuntu Condensed', sans-serif;
+	letter-spacing: 0.5px;
+}
+
+.person-wrapper > .left-column > .table > .input-box{
+	width: 100%;
+	border: 1.5px solid rgb(192, 192, 192, 0.9);
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.person-wrapper > .left-column > .table > .input-box > .eye-icons{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	margin-right: 15px;
+	cursor: pointer;
+}
+
+.person-wrapper > .left-column > .table > .input-box input{
+	width: 100%;
+	border: none;
+	outline: none;
+}
+
+.person-wrapper input{
+	border: 1.5px solid rgb(192, 192, 192, 0.9);
+	outline: none;
+	height: 2em;
+	width: 100%;	
+	font-family: inherit;
+	color: inherit;
+	font-size: 1.5em;
+	border-radius: 2px;
+	display: block;
+	padding-left: 15px;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	transition: all 0.3s;
+}
+
+.person-wrapper input:focus{
+	box-shadow: 0 2em 5em rgba(0, 0, 0, 0.1);
+	border: 1.5px solid black;
+}
+
+.person-wrapper button{
+	margin-top: 20px;
+	font-size: 1em;
+	height: 45px;
+	width: 120px;
+	border: none;
+	outline: none;
+	background-color: black;
+	color: white;
+	border-radius: 3px;
+	transition: 0.3s;
+}
+
+.person-wrapper button:hover{
+	background-color: saddlebrown;
+	color: white;
+}
+
+.rem{
+	font-size: 15px;
+	color: rgb(192, 192, 192, 1.0);
+	margin-top: 20px;
+}
+
+.person-wrapper input::-webkit-input-placeholder{
+	font-size: 0.7em;
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.person-wrapper input:focus::-webkit-input-placeholder{
+	color: transparent;
+}
+
+.close{
+	display: none;
+}
+
+.close.show{
+	display: inline-block;
+}
+
+.open.show{
+	display: none;
+}
+
+
+

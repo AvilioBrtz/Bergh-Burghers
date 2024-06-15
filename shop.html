@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+ 
+  <link rel="stylesheet"  href="navb.css">
+	<link rel="stylesheet"  href="shop.css">
+	<link rel="stylesheet"  href="cart-pop.css">
+	<link rel="stylesheet"  href="media.css">
+	<title>BERGH BURGERS</title>
+</head>
+<body>
+	<div class="navigation-bar">
+		<div class="left-column">
+			<div class="logo">
+				<a href="home.html"><h1>BERGH <br> BURGERS</h1></a>
+			</div>
+		</div>
+
+		<div class="center-column">
+			<div class="times-icon" id="times-icon"><i class="fa fa-times" aria-hidden="true"></i></div>
+			<a href="shop.html">offers</a>
+			<a href="burgers.html">shop</a>
+			<a href="contact.html">contact</a>
+		</div>
+
+		<div class="right-column">
+			<div class="icon-cart" id="icon-cart">
+				<i class="fa fa-shopping-bag" aria-hidden="true"></i>
+				<span id="cart-amount">0</span>
+			</div>
+		    <div><a href="detail.html"><i class="fa fa-user" aria-hidden="true"></i></a></div>
+		    <div class="bar-icon" id="bar-icon">
+		    	 <i class="fa fa-bars" aria-hidden="true"></i>
+		    </div>
+		</div>
+	</div>
+
+
+<div class="offer-container">
+	<div class="offer"><h1>Offers</h1></div>
+	<div class="offer-wrapper">
+		<div class="offer1">
+			<div class="offer-bg" style="background-image: url('img/louis-hansel.jpg');"></div>
+			<div class="offer-text">
+				<h3>Weekend Offer</h3>
+				<p>Free Delivery</p>
+			</div>
+		</div>
+		<div class="offer2">
+			<div class="offer-bg" style="background-image: url('img/mae-mu.jpg');"></div>
+			<div class="offer-text">
+				<h3>Terrific Tuesday and Throwback Thursday offers</h3>
+				<p>Get 50% Off Plus Drink Of Choice</p>
+			</div>
+		</div>
+</div>
+</div>
+
+<div class="pop-up hide">
+	<div class="pop-up-icon">
+	<i class="fa fa-times" aria-hidden="true"></i>
+</div>
+	<div class="text">
+	<h1>No items in the cart</h1>
+</div>
+</div>
+
+<div class="cart-tab hide">
+
+	<div class="icon" id="close-icon">
+	<i class="fa fa-times" aria-hidden="true"></i>
+</div>
+
+	<div class="list-cart">
+			
+	</div>
+
+	<div class="total" id="total">
+		
+	</div>
+
+	<div class="btn">
+		<a href="cart.html"><button class="view">View cart</button></a>
+		<button class="Checkout">Checkout</button>
+	</div>
+</div>
+
+<script type="text/javascript" src="products.js"></script>
+<script type="text/javascript" src="cart1.js"></script>
+
+</body>
+</html>

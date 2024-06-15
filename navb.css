@@ -1,0 +1,86 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.navigation-bar{
+	height: 100px;
+	width: 100%;
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 40px;
+	box-sizing: border-box;
+	/*position: fixed;
+	top: 0;
+	z-index: 1;*/
+}
+
+.left-column > .logo a{
+	text-decoration: none;
+	color: black;
+	font-family: "Roboto",sans-serif;
+	font-weight: 900;
+	font-size: 19px;
+	cursor: pointer;
+}
+
+.navigation-bar > .center-column{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.navigation-bar > .center-column > .times-icon{
+	display: none;
+}
+
+.navigation-bar > .center-column a{
+	color: silver;
+	text-decoration: none;
+	font-size: 25px;
+    font-family: 'Poppins', sans-serif; 
+	font-weight: 400;
+	cursor: pointer;
+}
+
+.navigation-bar > .right-column{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 40px;
+	margin-right: 27px;
+}
+
+.navigation-bar > .right-column > .bar-icon{
+	display: none;
+}
+
+.navigation-bar > .right-column i{
+	color: black;
+	font-size: 20px;
+	transition: 1s;
+	position: relative;
+	cursor: pointer;
+}
+
+.navigation-bar > .right-column i:hover{
+	color: blue;
+}
+
+#cart-amount{
+	display: flex;
+	width: 20px;
+	height: 20px;
+	background-color: red;
+	color: white;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border-radius: 50%;
+	position: absolute;
+	top: 55px;
+	right: 110px;
+}
