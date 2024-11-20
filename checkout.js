@@ -58,3 +58,7 @@ submitBtn.addEventListener('click', () =>{
 	alert("Order created successfully")
 	localStorage.removeItem("data")
 })
+
+
+
+       
