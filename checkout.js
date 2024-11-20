@@ -57,5 +57,4 @@ submitBtn.addEventListener('click', () =>{
 
 	alert("Order created successfully")
 	localStorage.removeItem("data")
-	window.location.assign("https://aviliobrtz.github.io/Bergh-Burghers/index.html");
 })
