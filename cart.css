@@ -205,7 +205,11 @@
 }
 
 
-
+@media (max-width: 615px) {
+	.skew2-wrapper{
+		padding: 30px 10px;
+	}
+}
 
 
 
